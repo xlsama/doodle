@@ -152,7 +152,6 @@ save.onclick = function () {
   document.body.appendChild(saveA)
   saveA.href = imgUrl
   saveA.download = new Date().toLocaleString()
-  saveA.target = '_blank'
   saveA.click()
 }
 
