@@ -70,7 +70,7 @@ function listenToUser(canvas) {
     }
   }
 
-  canvas.onmouseup = function () {
+  document.onmouseup = function () {
     painting = false
   }
 }
